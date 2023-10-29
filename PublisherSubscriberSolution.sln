@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publisher_MSGBrocker", "Publisher_MSGBrocker", "{58B89AEA-07A1-4C0B-974B-BFA784F27956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subscriber", "Subscriber", "{823CDB2A-4D32-4574-8795-125DC66FB584}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracking.Service.MessageBrocker", "src\Tracking.Service.MessageBrocker\Tracking.Service.MessageBrocker.csproj", "{47870FAA-8044-474F-A009-37867504698E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracking.Service.Subscriber", "src\Tracking.Service.Subscriber\Tracking.Service.Subscriber.csproj", "{620829F6-6542-47B0-ABF8-6D018CB6136E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47870FAA-8044-474F-A009-37867504698E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47870FAA-8044-474F-A009-37867504698E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47870FAA-8044-474F-A009-37867504698E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47870FAA-8044-474F-A009-37867504698E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620829F6-6542-47B0-ABF8-6D018CB6136E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620829F6-6542-47B0-ABF8-6D018CB6136E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620829F6-6542-47B0-ABF8-6D018CB6136E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620829F6-6542-47B0-ABF8-6D018CB6136E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47870FAA-8044-474F-A009-37867504698E} = {58B89AEA-07A1-4C0B-974B-BFA784F27956}
+		{620829F6-6542-47B0-ABF8-6D018CB6136E} = {823CDB2A-4D32-4574-8795-125DC66FB584}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E60309C-59A8-4221-9E33-E1A5EDF5A8A8}
+	EndGlobalSection
+EndGlobal
